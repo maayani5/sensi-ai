@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import classes from './Nav.module.css'
 
 function Nav() {

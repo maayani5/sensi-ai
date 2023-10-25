@@ -1,19 +1,10 @@
 import Head from 'next/head';
-import {useEffect, useMemo, useState} from "react";
-import Chart from 'chart.js/auto';
 import useSocket from "@/hooks/useSocket";
-import LineChart from "@/components/chart/chart";
-import BarChart from "@/components/chart/chart";
 import SeverityChart from "@/components/chart/chart";
 
 export default function Home() {
 
     const {messages} = useSocket();
-    console.log(messages)
-
-    // const chartData = useMemo(()=> {
-    //    const labels
-    // },[messages])
 
 
   return (
