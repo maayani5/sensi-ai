@@ -6,9 +6,6 @@ server.on('connection', (socket) => {
 
   socket.on('message', (message) => {
     console.log(`Received: ${message}`);
-    // You can handle the incoming message and send a response here
-    // For example:
-    // socket.send('Received your message: ' + message);
   });
 
   socket.on('close', () => {
